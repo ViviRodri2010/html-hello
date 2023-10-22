@@ -2,33 +2,51 @@
     border-style: dashed;
     border-color: red;
 } */
+body{
+    background-color: lightgray;
+    margin: 0;
+}
 .header_{
-    /* border-style: dashed;
-    border-color: red; */
-    margin: 10px 10px 10px 10px;
+    /* border-color: red; */
+    background-color: white;
+    margin: 0;
     text-align: center;
     width: 100%;
 }
 .header_ h1{
     align-content: center;
+    margin: 0;
 }
-.feed{
+div.feed{
     background-color: lightgray;
     align-items: center;
+    width: 500px;
+    margin:auto;
 }
 .post{
     background-color: white;
+    margin: 30px;
 }
 .postHeader{
-    display: flex;
+    width: 100%;
+    /* display: flex; */
 }
-.postHeader div{
-    /* border-style: dashed; */
-    /* border-color: bisque; */
-    float: right;
+.postHeader:first-child{
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+}
+.postHeader:last-child{
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+.postFooter{
+    padding: 7px;
 }
 .post img {
     box-sizing: content-box;
-    width: 400px;
+    width: 100%;
     height: fit-content;
 }
+
