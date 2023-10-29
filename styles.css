@@ -1,26 +1,26 @@
-/* * {
-    border-style: dashed;
-    border-color: red;
-} */
 body{
     background-color: lightgray;
     margin: 0;
 }
 .header_{
-    /* border-color: red; */
+    width: 100%;
     background-color: white;
     margin: 0;
-    text-align: center;
-    width: 100%;
+    display: flex;
+    /* padding: 0px 0px; */
+    
+}
+.header_ div{
+    padding: 20px 0px 20px 300px;
 }
 .header_ h1{
-    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 div.feed{
     background-color: lightgray;
     align-items: center;
-    width: 500px;
+    width: 600px;
     margin:auto;
 }
 .post{
@@ -29,17 +29,18 @@ div.feed{
 }
 .postHeader{
     width: 100%;
-    /* display: flex; */
+    display: flex;
 }
-.postHeader:first-child{
-    display: inline-block;
-    width: 80%;
-    margin: 0;
+.postHeader div p{
+    margin: 0;padding: 10px;
 }
-.postHeader:last-child{
-    display: inline-block;
-    width: 20%;
-    margin: 0;
+.postTitle{
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.postDate{
+    float: right;
 }
 .postFooter{
     padding: 7px;
@@ -49,4 +50,3 @@ div.feed{
     width: 100%;
     height: fit-content;
 }
-
